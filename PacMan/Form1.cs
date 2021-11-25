@@ -18,6 +18,8 @@ namespace PacMan
         {
             InitializeComponent();
             pacman = new PacManPlayer();
+            pacman.picture = pacmanPicture;
+
         }
 
 
@@ -29,6 +31,7 @@ namespace PacMan
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
+
         }
     }
 }
