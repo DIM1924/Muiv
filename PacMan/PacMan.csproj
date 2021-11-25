@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PacManPlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +66,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +80,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\coin-flip-12_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Pole2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pacman.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\PinkGhostgif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\RedGhost.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\YelowGhost.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\BlueGhost.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

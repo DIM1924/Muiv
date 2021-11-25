@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,22 @@ namespace PacMan
 {
     public partial class Form1 : Form
     {
+        private PacManPlayer pacman;
         public Form1()
         {
             InitializeComponent();
+            pacman = new PacManPlayer();
+        }
+
+
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            pacman.Move();
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
         }
     }
 }
