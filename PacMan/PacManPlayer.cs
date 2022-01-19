@@ -9,7 +9,7 @@ namespace PacMan
         public int moveDirectionX = 0;
         public int moveDirectionY = 0;
         public PictureBox pacmanPicture;
-        
+        public Form1  walls;
 
         public void Move(int x, int y)
         {
@@ -28,8 +28,9 @@ namespace PacMan
 
         public void CheckCollision(PictureBox bounds)
         { 
+            walls = Form1.PictureBox.walls
 
-            if (pacmanPicture.Bounds.(bounds))
+            if (pacmanPicture.Bounds = walls.boun)
             {
                 Move(0, 0);
             } 

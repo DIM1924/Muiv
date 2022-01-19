@@ -18,7 +18,7 @@ namespace PacMan
         public Form1()
         {
             InitializeComponent();
-            PictureBox[] walls = new PictureBox[] 
+             PictureBox[] walls = new PictureBox[] 
             {
                 pictureBox10,pictureBox26,pictureBox14,
                 pictureBox15,pictureBox44,pictureBox37,pictureBox25,pictureBox20,pictureBox39,pictureBox19,
@@ -41,12 +41,12 @@ namespace PacMan
         {
             pacman.Update();
             pole.Update(pacman);
-             pacman.CheckCollision( );
-                     foreach ( 1 in 10 walls )
+             pacman.CheckCollision( pacmanPicture.);
+                     foreach ( 1 in 10  )
                         {
                              pacman.CheckCollision(wall.pictureBox);
                          }
-            */
+            
 
         }
 
